@@ -1,0 +1,810 @@
+body{
+  width: 100%;
+  height: 100%;
+
+}
+/*start js(why)*/
+.slider {
+  max-width: auto;
+  margin: 0 auto;
+}
+
+.slider .card{
+	margin: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius:20px;
+}
+.slider h4 {
+	font-family: SF Pro Display;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 26px;
+	line-height: 30px;
+	color: #B62B32;
+}
+.slider p{
+	font-family: SF Pro Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 20px;
+	color: #7B7B7B;
+}	
+
+.slider .next {
+	position: absolute;
+	top: 41%;
+	right: 7%;
+	width: 47px;
+	height: 47px;
+	border-radius: 50%;
+	z-index: 9;
+	opacity: 0.5;
+}
+.slider .next:hover{
+	opacity: 0.8;
+}
+.slick-list {
+    padding-left: 0px!important; // half partial
+  	margin: 0px -5px 0px -5px;
+}
+
+/*js end*/
+
+
+.header{
+	background: #12486C;
+	color: #FFFFFF;
+}
+/*menu*/
+.navbar{
+	position: -webkit-sticky;
+	z-index: 50;
+	position: sticky;
+	border-bottom: 1px solid #B62B32;
+	top: 0;
+}
+.navbar img{
+	margin: 10px;
+}
+.navbar li a{
+	margin: 10px;
+	color:#000000;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	text-decoration: none;
+	margin-left: 20px;
+}
+.navbar li button{
+	background:#B62B32;
+	color: #FFFFFF;
+	border: 1px solid transparent; 
+	font-family: SF Pro Display;
+	font-style: normal;
+	font-weight: bold;
+	border-radius: 10px;
+	margin-left: 20px;
+}
+/*băng chuyền*/
+#demo button{
+	border-radius: 6px;
+	border: 1px solid transparent;
+	background: #FF9B04;
+	color: #FFFFFF;
+}
+#demo li{
+	border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+}
+#demo .carousel-control-next img:hover{
+	opacity: 0.5;
+	background:#c5c7ca;
+	border-radius: 50%;
+}
+#demo .carousel-control-prev img:hover{
+	opacity: 0.5;
+	background:#c5c7ca;
+	border-radius: 50%;
+}
+/*tham gia cộng đồng*/
+#join{
+	margin-top: 20px;
+}
+#join .col-md-4 img{
+	display: block;
+	margin:auto;
+	margin-top: 20px;
+}
+#join .col-md-4 h4{
+	text-align: center; 
+	color: #B62B32;
+}
+#join .col-md-4 p{
+	text-align: center;
+}
+#join1{
+	border-right: 1px solid #cccccc42;
+}
+#join2{
+	border-right: 1px solid #cccccc42;
+}
+/*tại sao chọn(why)*/
+#why{
+	border-bottom: solid; 
+	border-bottom-color: #f5f0f1;
+	box-shadow: 0px 1px 2px #f5f0f1;
+	margin-top: 10px;
+}
+#why .col-md-7 h3{
+	font-family: SF Pro Display;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 40px;
+	color: #3895E5; 
+	margin-top: 20px; 
+}
+#why .col-md-7 p{
+	font-family: SF Pro Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 32px;
+	text-align: justify;
+}
+#why .col-md-7 li{
+	display: inline-block;
+}
+#why .col-md-7 a{
+	border: solid;
+	border-color: #7A98B2;
+	color: #7A98B2; 
+	border-radius: 6px;
+	padding: 3px;
+	margin-right: 10px;
+	text-decoration: none;
+}
+#why .col-md-7 button{
+	background: #FF9B04;
+	border-radius: 6px; 
+	border: 1px solid transparent;
+	margin-bottom: 20px;
+	margin-left: 40px;
+	color: #FFFFFF; 
+}
+/*học viên ns*/
+#tel {
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+#tel .col-lg-5{
+	margin-top: 70px
+}
+#tel .col-lg-5 p{
+	font-family: SF Pro Display;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 50px;
+	line-height: 72px;
+	color: #B62B32;
+	margin-bottom: -8px;  
+	position: relative;
+	z-index: 22;
+	width: 350px; 
+	margin-left: 160px;
+
+}
+#tel .col-md-7{
+	width: 100%; 
+	height: 100%;
+	margin: 20px 0px 20px 0px; 
+	background: #EDF5FC;
+	border-radius: 15px;
+}
+#phay{
+	position: absolute;
+	font-family: SFU AmericanType;
+	font-weight: 500;
+	font-size: 130px;
+	line-height: 135px;
+	color: #B62B32;
+	left: 70px;
+	top: -42px
+}
+#demo1{
+	padding: 50px
+}
+#demo1 span {
+	font-family: SF Pro Display;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 32px;
+	color: #000000;
+}
+#demo1 .col-md-2 img{
+	padding: auto;
+}
+#demo1 .row{
+	padding: 33px;
+}
+#demo1 .col-md-10{
+	padding: auto;
+}
+#demo1 .col-md-10 h3{
+	font-family: SF Pro Display;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 26px;
+}
+#demo1 .col-md-10 p{
+	font-family: SF Pro Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 20px;
+}
+#demo1 .carousel-indicators li{
+	border: 2px solid #90B7DB;
+    background-color: #90B7DB;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+}
+/*end tel*/
+#dk .col-md-8{
+	font-family: SF Pro Display;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 26px;
+	color: #2F2F2F;
+	margin:auto;
+}
+#dk button{
+	background: #FF9B04;
+	border-radius: 6px;
+	border: 1px solid transparent;
+	margin: 20px; 
+	color: #FFFFFF;
+}
+/*các khóa học*/
+#khoahoc{
+	background: #F6F7FD;
+	border-top: solid; 
+	border-color: #f5f0f1;
+	box-shadow: 0px 4px 15px rgba(157, 157, 157, 0.25)
+}
+#khoahoc h3{
+	text-align: center;
+	font-family: SF Pro Display;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 26px;
+	color: #B62B32; 
+	margin-top: 30px;
+}
+.xem p{
+	text-align: center
+}
+#khoahoc .xem a{
+	font-family: SF Pro Display;
+	font-style: normal;
+	line-height: 32px;
+	text-align: center;
+	color: #FFFFFF;
+	background: #FF9B04;
+	border-radius: 6px;
+	margin: 3px;
+	padding: 3px; 
+	text-decoration:none;
+}
+#khoahoc .col-sm-3{
+	margin-bottom: 40px;
+}
+#khoahoc .card{
+	width:100%;
+	height:100%;
+	margin: auto; 
+	border-radius:15px;
+}
+#khoahoc .card img{
+	width:100%;
+	background: #F6F7FD; 
+	border-top-right-radius: 17px;
+	border-top-left-radius: 17px;
+}
+#khoahoc .card-title{
+	font-family: SF Pro Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 26px;
+	color: #7B7B7B;"
+}
+#khoahoc .card-text{
+	font-family: SF Pro Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 25px;
+	color: #7B7B7B;
+}
+#khoahoc .card-body a{
+	border: solid;
+	border-color: #7A98B2;
+	color: #7A98B2; 
+	margin: 1px;
+	padding: 3px; 
+	border-radius: 6px;
+	text-align: left;
+}
+#khoahoc .card-body li{
+	display: inline-block;
+	margin-bottom: 15px;
+}
+/*end khoa hoc*/
+/*cam kết*/
+#camket .col-md-4 img {
+	margin-top: 70px; 
+	margin-left: 20px
+}
+#camket .col-md-4 h3{
+	font-family: SF Pro Display;
+	font-style: normal;
+	margin: 20px;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 26px;
+	text-align: left;
+	color: #404040;
+}
+#camket .col-md-4 p{
+	font-family: SF Pro Display;
+	font-style: normal;
+	font-weight: normal;
+	margin: 20px;
+	font-size: 20px;
+	line-height: 32px;
+}
+#camket .col-md-4 button{
+	background: #FF9B04;
+	border-radius: 6px;
+	border: 1px solid transparent; 
+	margin: 20px;
+	color: #FFFFFF;
+}
+#camket .col-md-8{
+	padding:70px;
+}
+#time{
+	background: #F6F7FD;
+}
+#time .col-md-5 img{
+	margin: 30px;
+	width:460px;
+	height:470px;
+}
+#time .col-md-7 {
+	padding: 100px;
+}
+#time .col-md-7 h3{
+	font-family: SF Pro Display;
+	font-style: normal;
+	margin: 20px;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 26px;
+	text-align: left;
+	color: #404040;
+}
+#time .col-md-7 p{
+	font-family: SF Pro Display;
+	font-style: normal;
+	font-weight: normal;
+	margin: 20px;
+	font-size: 20px;
+	line-height: 32px;
+}	
+#time .col-md-7 button{
+	background: #FF9B04;
+	border-radius: 6px;
+	margin: 20px;
+	border: 1px solid transparent;
+	color: #FFFFFF;
+	margin-bottom:50px;
+}
+#time .col-md-7 img{
+	margin-left: 20px;
+}
+#phi .col-md-7 img{
+	margin-top: 60px; 
+	margin-left: 70px;
+}
+#phi .col-md-7 h3{
+	font-family: SF Pro Display;
+	font-style: normal;
+	margin: 20px;
+	margin-left: 70px;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 26px;
+	text-align: left;
+	color: #404040;
+}
+#phi .col-md-7 p{
+	font-family: SF Pro Display;
+	font-style: normal;
+	font-weight: normal;
+	margin: 20px;
+	margin-left: 70px;
+	font-size: 20px;
+	line-height: 32px;
+}
+#phi .col-md-7 button{
+	background: #FF9B04;
+	border-radius: 6px;
+	margin: 20px;
+	margin-left: 70px;
+	border: 1px solid transparent;
+	color: #FFFFFF;
+	margin-bottom:50px;
+}
+#phi .col-md-5 img{
+	margin: 40px;
+	margin-left: 5px;
+}
+/*end học phí*/
+/*question*/
+#qs {
+	margin-top: 25px;
+}
+#qs h2{
+	font-family: SF Pro Display;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 26px;
+	text-align: center;
+	color: #B62B32; 
+	margin-bottom: 30px;
+}
+#qs1{
+	border: 1px solid #808488;
+	box-sizing: border-box;
+	border-radius: 8px;
+	margin-bottom: 20px;
+}
+#qs2{
+	border: 1px solid #808488;
+	box-sizing: border-box;
+	border-radius: 8px;
+	margin-bottom: 20px;
+}
+#qs3{
+	border: 1px solid #808488;
+	box-sizing: border-box;
+	border-radius: 8px;
+	margin-bottom: 20px;
+}
+#qs4{
+	border: 1px solid #808488;
+	box-sizing: border-box;
+	border-radius: 8px;
+	margin-bottom: 20px;
+}
+#qs5{
+	border: 1px solid #808488;
+	box-sizing: border-box;
+	border-radius: 8px;
+	margin-bottom: 20px;
+}
+#qs6{
+	border: 1px solid #808488;
+	box-sizing: border-box;
+	border-radius: 8px;
+	margin-bottom: 30px;
+}
+#qs .row{
+	padding: 10px
+}
+#qs .col-md-3 h3{
+	font-family: SF Pro Display;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 30px;
+	letter-spacing: 0.41px;
+	color: #356FA1;
+	text-align: center;
+}
+#qs .col-md-9 p{
+	font-family: SF Pro Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 28px;
+}
+#qs .col-md-9 h4{
+	font-family: SF Pro Display;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 32px;
+	color: #5C5C5C;
+}
+#qs3 .col-md-9 a{
+	font-family: SF Pro Display;
+	font-style: normal;
+	line-height: 28px;
+	margin: 2px; 
+	text-decoration:none;
+}
+/*dang kí*/
+#dangki{
+	background: #F4F9FD;
+	box-shadow: 0px 4px 15px rgba(157, 157, 157, 0.25);
+}
+#dangki .row{
+	padding: 20px;
+}
+#dangki .col-md-5 h3{
+	font-family: SF Pro Display;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	text-align: center;
+	color: #3895E6;
+}
+#dangki .col-md-4 input{
+	font-family: SF Pro Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 28px; 
+	width: 100%; 
+	height: 100%;
+	padding: 10px; 
+	background:#F4F9FD; 
+	border: 1px solid #656565;
+	border-radius: 6px;
+}
+#dangki .col-md-3 button{
+	font-family: SF Pro Display;
+	background: #FF9B04;
+	border-radius: 6px;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 31px;
+	letter-spacing: 0.41px;
+	border: 1px solid transparent;
+	color: #FFFFFF;
+	margin: 7px;
+}
+/*footer*/
+#footer{
+	background: #356FA1;
+}
+#footer .col-md-2 img{
+	padding: 30px;
+}
+#footer .col-md-10{
+	padding: 20px;
+}
+#footer .col-md-10 h2{
+	font-family: SF Pro Display;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 28px;
+	color: #FFFFFF;
+}
+#footer .col-md-10 .col-md-5{
+	font-family: SF Pro Display;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 20px;
+	color: #FFFFFF;
+}
+#footer .col-md-10 .col-md-7{
+	font-family: SF Pro Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 18px;
+	color: #FFFFFF;
+}
+#copy {
+	position: absolute;
+	background: #424445;
+ tex
+}
+#copy h2{
+	font-family: SF Pro Display;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 28px;
+	color: #FFFFFF; 
+	text-align: center;
+	margin: 2px;
+}
+#myModal .modal-body input{
+	width: 50%; 
+	height: 100%;
+	padding: 10px;
+	border: 1px solid #656565;
+	border-radius: 6px;
+}
+#myModal .modal-footer button{
+	letter-spacing: 0.41px;
+	border: 1px solid transparent;
+	color: #FFFFFF;
+	padding:3px;	
+	background: #FF9B04;
+	border-radius: 6px;
+}
+.modal-header {
+	display: block;
+	border-bottom: 0px;
+}
+.modal-title h4{
+	font-family: SF Pro Display;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 50px;
+	color: #B62B32;
+}
+.modal-title p{
+	font-family: SF Pro Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 28px;
+	color: #5C5C5C;
+}
+.modal-footer{
+	justify-content: flex-start;
+	border-top: 0px;
+}
+
+/* Dành cho máy tính bảng */
+@media all and (max-width: 1200px) {
+
+  #tel .col-lg-5 p{
+	font-family: SF Pro Display;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 50px;
+	line-height: 72px;
+	color: #B62B32;
+	margin-bottom: -8px;  
+	position: relative;
+	z-index: 22;
+	width: 350px; 
+	margin-left: 90px;
+    }	
+
+	#demo1 .col-md-2{
+	display: block; 
+	margin-left: 35%; 
+	margin-right:40%;
+	margin-bottom: 10px;
+	padding: auto;
+	}
+	#demo1 .col-md-10{ 
+	width: 100%;
+	display: block;
+	margin-left: auto; 
+	margin-right: auto;
+	text-align: center;
+	}
+
+}
+@media all and (max-width: 991.5px) {
+	#tel .col-lg-5 p{
+	margin-left: 25% !important;
+	}
+	#tel .col-md-7{
+	width: 100%; 
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto; 
+	background: #EDF5FC;
+	border-radius: 15px;
+ 	}
+ 	#camket .col-md-8 img{
+ 	width: 100%;
+ 	height: 100%;
+ 	margin: 20px;
+ 	}
+ 	#time .col-md-5 img{
+ 	width: 90%;
+ 	height: 75%;
+ 	margin-top: 40px;
+ 	}
+ 	#time .col-md-7 {
+	padding: 30px;
+	}
+	#phi .col-md-5 img{
+	width: 85%;
+	height: 85%;
+	margin: 40px;
+	}
+	#why .col-md-7 li{
+	margin-bottom: 15px;
+	} 
+	#khoahoc .card-body li{
+	margin-bottom: 15px;
+	}
+	#khoahoc .col-sm-3{
+	padding-right: 3px;
+	padding-left: 3px;
+	}
+}
+/*máy tính bảng*/
+@media (max-width: 767.5px) {
+	#join1{
+	border-right: none;
+	}
+	#join2{
+	border-right: none;
+	}
+	#dk button{
+	background: #FF9B04;
+	border-radius: 6px;
+	border: 1px solid transparent;
+	margin-left: 35%;
+	margin-top: -20px; 
+	color: #FFFFFF;
+	}
+	#qs .col-md-9 h4{
+	text-align: center;
+	}
+	#tel .col-lg-5 p{
+	margin-left: 15% !important;
+	}
+	#khoahoc .row{
+	width: 250%;
+	height: auto;
+	margin-left:18%;
+	flex-direction: column;
+	}
+
+}
+/* Dành cho điện thoại */
+@media all and (max-width: 575.5px) {
+	#dk button{
+	background: #FF9B04;
+	border-radius: 6px;
+	border: 1px solid transparent;
+	margin-left: 27%; 
+	color: #FFFFFF;
+
+	}
+ 	#tel .col-lg-5 p{
+	margin-left: 7% !important;
+	}
+	#khoahoc .row{
+	width: 100% !important;
+	height: 100% !important;
+	margin-left: 0px;
+	flex-direction: column;
+	}
+}
+/*máy tính bảng*/
+
+
+
+
+
